@@ -48,7 +48,7 @@ public class CustomerControllerTest extends AbstractRestControllerTest {
     }
 
     @Test
-    public void getAllCategories() throws Exception {
+    public void getAllCustomers() throws Exception {
         CustomerDTO customer1 = new CustomerDTO();
         customer1.setId(1L);
         customer1.setFirstName(FIRSTNAME);
